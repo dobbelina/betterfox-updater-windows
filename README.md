@@ -34,6 +34,7 @@ you can then add a nice icon from `%SystemRoot%\System32\imageres.dll`</em> 😉
 To be notified* when there's a new Betterfox release, create an account here: 
 
 [newreleases.io](https://newreleases.io/) this service is free.
+
 *<sub>Supports notification by: Email, Slack, Telegram, Discord, Hangouts Chat, Microsoft Teams, Mattermost, Rocket.Chat, Matrix, Webhooks</sub>
 
 
