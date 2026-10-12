@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="60" viewBox="0 0 1200 60" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ddf4ff"/>
+      <stop offset=".48" stop-color="#ddf4ff"/>
+      <stop offset="1" stop-color="#ddf4ff"/>
+    </linearGradient>
+    <linearGradient id="wash" x1="270" y1="60" x2="965" y2="-20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A9DDFC" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#94C8FA" stop-opacity=".19"/>
+      <stop offset=".78" stop-color="#C5B7F8" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#B1E6E0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paneA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#65B8F5"/>
+      <stop offset="1" stop-color="#458DEB"/>
+    </linearGradient>
+    <linearGradient id="paneB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9B9AF4"/>
+      <stop offset="1" stop-color="#777FE2"/>
+    </linearGradient>
+    <linearGradient id="paneC" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#69D3D2"/>
+      <stop offset="1" stop-color="#48B9C5"/>
+    </linearGradient>
+    <filter id="blur" x="-10%" y="-100%" width="120%" height="300%">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#4975B7" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="60" fill="url(#bg)"/>
+  <ellipse cx="590" cy="65" rx="370" ry="33" fill="#9DCEFA" fill-opacity=".18" filter="url(#blur)"/>
+  <path d="M0 45C190 8 310 72 499 37S814 2 1000 36s143 19 200 2v22H0V45Z" fill="url(#wash)"/>
+  <path d="M0 47C198 16 322 66 502 38s308-31 478-4 157 16 220 2" stroke="#fff" stroke-opacity=".65" stroke-width="1"/>
+  <path d="M0 51C195 22 325 71 504 44s311-27 474-3 162 14 222 2" stroke="#8DB9EC" stroke-opacity=".14" stroke-width="1"/>
+  <path d="M0 59.5H1200" stroke="#DCE5F0"/>
+  <path d="M0 0H1200" stroke="#fff" stroke-opacity=".8"/>
+</svg>
