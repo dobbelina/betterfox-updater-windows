@@ -1,4 +1,4 @@
-# betterfox-updater-windows
+# betterfox-updater-windows ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 I made a Betterfox Updater and prefsCleaner for windows, just drop **`Updater.bat`** & **`prefsCleaner.ps1`** & **`user-overrides.js`**
  into the firefox profiles folder and execute **`Updater.bat`**, download link at the bottom.
 
