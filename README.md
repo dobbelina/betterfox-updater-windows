@@ -2,7 +2,7 @@
 I made a Betterfox Updater and prefsCleaner for windows, just drop **`Updater.bat`** & **`prefsCleaner.ps1`** & **`user-overrides.js`**
  into the firefox profiles folder and execute **`Updater.bat`**, download link at the bottom.
 
-<img width="396" height="331" alt="Image" src="https://github.com/user-attachments/assets/11bbc5b1-f324-40d7-b94c-cf8966a95535" />
+<img width="396" height="331" alt="Image" src="https://raw.githubusercontent.com/dobbelina/betterfox-updater-windows/main/graphics/betterfox-updater.png" />
 
 #### Why prefsCleaner?
 When you update `user.js` to a new version, obsolete and deleted* entries from the previous version may still be present in `prefs.js`.
@@ -32,7 +32,7 @@ Start in: `"C:\Users\winuser\AppData\Roaming\Mozilla\Firefox\Profiles\wgigyenw.S
 you can then add a nice icon from `%SystemRoot%\System32\imageres.dll`</em> 😉
 
 <p align="center">
-  <img width="94" height="101" src="https://github.com/user-attachments/assets/2d530280-ce05-4ca3-87e4-6172b68e326e">
+  <img width="94" height="101" src="https://raw.githubusercontent.com/dobbelina/betterfox-updater-windows/main/graphics/shortcut.png">
 </p>
 To be notified* when there's a new Betterfox release, create an account here: 
 
@@ -41,6 +41,6 @@ To be notified* when there's a new Betterfox release, create an account here:
 *<sub>Supports notification by: Email, Slack, Telegram, Discord, Hangouts Chat, Microsoft Teams, Mattermost, Rocket.Chat, Matrix, Webhooks</sub>
 
 
-<img width="1200" height="60" alt="Image" src="https://github.com/user-attachments/assets/0b0bd39e-ef6a-4040-b8e7-edd0d4764f06" />
+<img width="1200" height="60" alt="Image" src="https://raw.githubusercontent.com/dobbelina/betterfox-updater-windows/main/graphics/footer.svg" />
 
 
