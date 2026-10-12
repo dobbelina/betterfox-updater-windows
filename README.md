@@ -25,8 +25,7 @@ Download: [Betterfox-Updater-v4.zip](https://github.com/dobbelina/betterfox-upda
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/dobbelina/betterfox-updater-windows/latest/total)
 
 <em>You can create a desktop shortcut to run it if you want, it should be in this format:  
-(adjust for your path)
-
+(adjust for your path)  
 Target: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\Users\winuser\AppData\Roaming\Mozilla\Firefox\Profiles\wgigyenw.Safe Profile\prefsCleaner.ps1"` 
 
 Start in: `"C:\Users\winuser\AppData\Roaming\Mozilla\Firefox\Profiles\wgigyenw.Safe Profile"`   
