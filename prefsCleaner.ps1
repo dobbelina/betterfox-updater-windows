@@ -1,5 +1,6 @@
 # Betterfox Updater and prefsCleaner with progress GUI v4
 # Run with: powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File prefsCleaner.ps1
+# https://github.com/dobbelina/betterfox-updater-windows
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
