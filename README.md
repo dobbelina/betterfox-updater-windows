@@ -19,7 +19,10 @@ Make sure <ins>**firefox is not running!**</ins> when using the updater.
 *<sub>**user-overrides.js** is mandatory, update routine will not work without it, Add your user_pref's of choice to it</sub>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&width=435&lines=Updated+version+below!)]()
+
 Download: [prefsCleaner-v4.zip](https://github.com/user-attachments/files/33309185/prefsCleaner-v4.zip) 5 KB
+
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/dobbelina/betterfox-updater-windows/latest/total)
 
 <em>You can create a desktop shortcut to run it if you want, it should be in this format:
 (adjust for your path)
