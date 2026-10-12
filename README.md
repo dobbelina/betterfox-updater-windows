@@ -29,7 +29,7 @@ Download: [Betterfox-Updater-v4.zip](https://github.com/dobbelina/betterfox-upda
 
 Target: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\Users\winuser\AppData\Roaming\Mozilla\Firefox\Profiles\wgigyenw.Safe Profile\prefsCleaner.ps1"` 
 
-Start in: `"C:\Users\winuser\AppData\Roaming\Mozilla\Firefox\Profiles\wgigyenw.Safe Profile"  `
+Start in: `"C:\Users\winuser\AppData\Roaming\Mozilla\Firefox\Profiles\wgigyenw.Safe Profile"`   
 you can then add a nice icon from `%SystemRoot%\System32\imageres.dll`</em> 😉
 
 <p align="center">
