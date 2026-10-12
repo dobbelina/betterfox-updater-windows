@@ -5,17 +5,17 @@ I made a Betterfox Updater and prefsCleaner for windows, just drop **`Updater.ba
 <img width="396" height="331" alt="Image" src="https://raw.githubusercontent.com/dobbelina/betterfox-updater-windows/main/graphics/betterfox-updater.png" />
 
 #### Why prefsCleaner?
-When you update `user.js` to a new version, obsolete and deleted* entries from the previous version may still be present in `prefs.js`.
-To remedy this, `Updater.bat` runs a cleaning routine that removes entries from `prefs.js` defined in the old `user.js`, giving you a clean slate. (Same approach as [arkenfox](https://github.com/arkenfox/user.js/blob/fb56d7bb4ed07898c9d94ca7ecc89697dd88cc3c/prefsCleaner.bat#L22).)
-When `Updater.bat` is executed, it first cleans `prefs.js`, then downloads the latest version of `user.js` and appends `user-overrides.js` to the end of the file.
-Backup copies are made of both `prefs.js` & `user.js`
-Make sure <ins>**firefox is not running!**</ins> when using the updater.
+When you update `user.js` to a new version, obsolete and deleted* entries from the previous version may still be present in `prefs.js`.  
+To remedy this, `Updater.bat` runs a cleaning routine that removes entries from `prefs.js` defined in the old `user.js`, giving you a clean slate. (Same approach as [arkenfox](https://github.com/arkenfox/user.js/blob/fb56d7bb4ed07898c9d94ca7ecc89697dd88cc3c/prefsCleaner.bat#L22).)  
+When `Updater.bat` is executed, it first cleans `prefs.js`, then downloads the latest version of `user.js` and appends `user-overrides.js` to the end of the file.  
+Backup copies are made of both `prefs.js` & `user.js`  
+Make sure <ins>**firefox is not running!**</ins> when using the updater.  
 *<sub>Example pref that wouldn't be deleted when upgrading from version 152 to 154 without a prefsClean , ([Line 28](https://github.com/yokoffing/Betterfox/blob/8e415d1633f10fe0192d9c938e4ca2628eeec9f9/user.js#L28) in version 152)</sub>
 
 ### Steps
 1. Open the firefox profiles folder and <ins>**close firefox**</ins>
 2. Copy `Updater.bat` & `prefsCleaner.ps1` & `user-overrides.js`*  into the folder and run `Updater.bat`  
-3. Restart firefox, that's it!
+3. Restart firefox, that's it!  
 *<sub>**user-overrides.js** is mandatory, update routine will not work without it, Add your user_pref's of choice to it</sub>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&width=435&lines=Updated+version+below!)]()
@@ -24,8 +24,7 @@ Download: [Betterfox-Updater-v4.zip](https://github.com/dobbelina/betterfox-upda
 
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/dobbelina/betterfox-updater-windows/latest/total)
 
-<em>You can create a desktop shortcut to run it if you want, it should be in this format:
-
+<em>You can create a desktop shortcut to run it if you want, it should be in this format:  
 (adjust for your path)
 
 Target: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\Users\winuser\AppData\Roaming\Mozilla\Firefox\Profiles\wgigyenw.Safe Profile\prefsCleaner.ps1"` 
@@ -38,8 +37,7 @@ you can then add a nice icon from `%SystemRoot%\System32\imageres.dll`</em> 😉
 </p>
 To be notified* when there's a new Betterfox release, create an account here: 
 
-[newreleases.io](https://newreleases.io/) this service is free.
-
+[newreleases.io](https://newreleases.io/) this service is free.  
 *<sub>Supports notification by: Email, Slack, Telegram, Discord, Hangouts Chat, Microsoft Teams, Mattermost, Rocket.Chat, Matrix, Webhooks</sub>
 
 
