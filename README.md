@@ -20,7 +20,7 @@ Make sure <ins>**firefox is not running!**</ins> when using the updater.
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&width=435&lines=Updated+version+below!)]()
 
-Download: [prefsCleaner-v4.zip](https://github.com/user-attachments/files/33309185/prefsCleaner-v4.zip) 5 KB
+Download: [Betterfox-Updater-v4.zip](https://github.com/dobbelina/betterfox-updater-windows/releases/latest/download/Betterfox-Updater-v4.zip) 5 KB
 
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/dobbelina/betterfox-updater-windows/latest/total)
 
